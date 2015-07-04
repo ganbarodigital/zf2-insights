@@ -1,0 +1,23 @@
+{
+    "name": "ganbarodigital/zf2-insights",
+    "type": "utility",
+    "description": "Tool for peeking inside a Zend Framework 2 app",
+    "license": "BSD-3-Clause",
+    "authors": [
+        { "name": "Stuart Herbert", "email": "stuart@stuartherbert.com" }
+    ],
+    "require": {
+        "ganbarodigital/php-data-containers": "^2.0",
+        "ganbarodigital/php-exceptions": "^1.0",
+        "ganbarodigital/php-reflection": "^2.2",
+        "zendframework/zendframework": "^2.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "GanbaroDigital\\Insights\\Zf2\\": "src"
+        }
+    }
+}
